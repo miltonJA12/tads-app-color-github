@@ -1,0 +1,92 @@
+/* Fondo urbano */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Contenedor */
+.container {
+    max-width: 900px;
+}
+
+/* Tarjeta principal */
+.row {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.4);
+}
+
+/* Título */
+h2 {
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+/* Labels */
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* Inputs */
+input[type="number"] {
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Sliders urbanos */
+.form-range::-webkit-slider-thumb {
+    background-color: #ff4ecd;
+}
+
+.form-range::-moz-range-thumb {
+    background-color: #ff4ecd;
+}
+
+/* Caja de color */
+#colorBox {
+    width: 280px;
+    height: 280px;
+    border-radius: 25px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: inset 0 0 0 3px rgba(255,255,255,0.7),
+                0 20px 40px rgba(0,0,0,0.4);
+    transition: background-color 0.3s ease;
+}
+
+/* HEX */
+#hexCode {
+    background: #ff4ecd;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 12px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+
+/* FOOTER URBANO */
+.footer {
+    margin-top: 60px;
+    padding: 30px 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #f1f1f1;
+    border-top: 4px solid #ff4ecd;
+    letter-spacing: 0.5px;
+}
+
+.footer strong {
+    color: #ff4ecd;
+    font-size: 1.1rem;
+}
+
+.footer p {
+    margin: 4px 0;
+}
+
+.emoji-line {
+    font-size: 1.6rem;
+    letter-spacing: 10px;
+}
